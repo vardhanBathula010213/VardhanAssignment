@@ -1,0 +1,6 @@
+
+@login
+Scenario: upload data and verify the table            # src/test/resources/Features/Assignment/Assignment.feature:4
+  Given User is on dynamic web page                   # com.PracticeAssignment.StepDefinitions.AssignmentSteps.navigatingIntoDynamicTablePage()
+  When User able to upload data and refresh the table # com.PracticeAssignment.StepDefinitions.AssignmentSteps.insertTableData()
+  Then User able to verify table data                 # com.PracticeAssignment.StepDefinitions.AssignmentSteps.verificationOfInsertedTableData()
